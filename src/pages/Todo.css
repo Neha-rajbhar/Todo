@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mainForm {
+  /* border: 1px solid red; */
+  width: 25vw;
+  position: relative;
+  top: 120px;
+  left: 550px;
+  
+  height: 5vh;
+
+  outline: none;
+}
+.h2{
+    color: white;
+  
+    position: relative;
+    top: 80px;
+    left: 580px;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+}
+.mainDiv {
+  background-color: blueviolet;
+ 
+  height: 100vh;
+  position: relative;
+  top: 0px;
+}
+.mainForm input {
+  width: 69.5%;
+  height: 4.5vh;
+  /* border-radius: 15px; */
+}
+
+.mainForm .add {
+  width: 30%;
+  height: 4.8vh;
+  /* border-radius: 15px; */
+  position: absolute;
+  right: 0px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+}
+.mainForm .add:hover {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+}
+
+.task {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100%;
+  background-color: white;
+  color: black;
+  height: 5vh;
+  width: 24vw;
+  border-radius: 10px;
+ margin-bottom: 4%;
+  padding-left: 8px;
+ 
+ 
+  
+}
+
+.task:hover {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100%;
+  background-color: #3498db;
+  color: white;
+  height: 5vh;
+  width: 24vw;
+  border-radius: 10px;
+  
+  padding-left: 8px;
+ 
+ 
+  
+}
+
+.innerTask {
+  
+  margin: 4px;
+  padding: 4px;
+}
+
+.icons {
+  border: none;
+  background-color: transparent;
+  margin: 2px;
+  font-size: 18px;
+}
+.delete {
+  color: red;
+  font-weight: bold;
+}
+.edit {
+  color: green;
+  font-weight: bold;
+}
+.addsColor{
+  font-weight: bold;
+  color: white;
+}
+#add {
+  color: red !important;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: palevioletred;
+  border: none;
+}
+
+.p{
+    
+    justify-content: center;
+    text-align: center;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: blueviolet;
+} 
+
+.mainForm .editss {
+  width: 30%;
+  height: 4.8vh;
+  /* border-radius: 15px; */
+  position: absolute;
+  right: 0px;
+  background-color: palevioletred;
+ color: white;
+  border: none;
+  font-size: 18px;
+}
+.mainForm .editss:hover {
+  color: white;
+  background-color: blueviolet;
+  border: none;
+}
